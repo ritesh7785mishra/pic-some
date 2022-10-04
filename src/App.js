@@ -7,7 +7,7 @@ import Photos from "./pages/Photos"
 
 function App() {    
     return (
-        <div>
+        <div className="picsome">
             <Header />
             <Routes>
                 <Route exact path="/" element={<Photos/>}>  

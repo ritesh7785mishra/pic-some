@@ -10,7 +10,7 @@ function Header() {
     return (
         <header>
             {/* <Link to="/"><h2>Pic Some</h2></Link> */}
-            <h2 onClick={() => navigate('/')}>Pic Some</h2>
+            <h2 className="title" onClick={() => navigate('/')}>Pic Some</h2>
             <i onClick={() => navigate('/cart')} className={`${cartClassName} ri-fw ri-2x`}></i>
         </header>
     )
